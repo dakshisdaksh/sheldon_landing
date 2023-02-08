@@ -1,7 +1,7 @@
 const navbarDemos = document.querySelector('.navbar__demos')
 const demoArea = document.querySelector('.demoArea')
 
-navbarDemos.addEventListener('click',()=>demoArea.scrollIntoView({behavior: "smooth"}))
+navbarDemos.addEventListener('click', () => demoArea.scrollIntoView({ behavior: "smooth" }))
 
 // USAGE
 
@@ -15,45 +15,47 @@ const vec5B = document.querySelector('.vec5B')
 
 
 
-vec1.addEventListener('click',()=>{
+vec1.addEventListener('click', () => {
     document.querySelector('.before-click-vec1').classList.toggle('hide-usage');
     document.querySelector('.after-click-vec1').classList.toggle('hide-usage');
     vec1.classList.toggle('rotate');
 })
 
-vec2.addEventListener('click',()=>{
+vec2.addEventListener('click', () => {
     document.querySelector('.before-click-vec2').classList.toggle('hide-usage');
     document.querySelector('.after-click-vec2').classList.toggle('hide-usage');
     vec2.classList.toggle('rotate');
 })
 
-vec3A.addEventListener('click',()=>{
+vec3A.addEventListener('click', () => {
     document.querySelector('.before-click-vec3A').classList.toggle('hide-usage');
     document.querySelector('.after-click-vec3A').classList.toggle('hide-usage');
     vec3A.classList.toggle('rotate');
 })
 
-vec3B.addEventListener('click',()=>{
+vec3B.addEventListener('click', () => {
     document.querySelector('.before-click-vec3B').classList.toggle('hide-usage');
     document.querySelector('.after-click-vec3B').classList.toggle('hide-usage');
     vec3B.classList.toggle('rotate');
 })
 
-vec4.addEventListener('click',()=>{
+vec4.addEventListener('click', () => {
     document.querySelector('.before-click-vec4').classList.toggle('hide-usage');
     document.querySelector('.after-click-vec4').classList.toggle('hide-usage');
     vec4.classList.toggle('rotate');
     console.log("yes4")
 })
 
-vec5A.addEventListener('click',()=>{
+vec5A.addEventListener('click', () => {
     document.querySelector('.before-click-vec5A').classList.toggle('hide-usage');
     document.querySelector('.after-click-vec5A').classList.toggle('hide-usage');
     vec5A.classList.toggle('rotate');
     console.log('yes')
 })
 
-vec5B.addEventListener('click',()=>{
+
+
+vec5B.addEventListener('click', () => {
     document.querySelector('.before-click-vec5B').classList.toggle('hide-usage');
     document.querySelector('.after-click-vec5B').classList.toggle('hide-usage');
     vec5B.classList.toggle('rotate');
@@ -64,33 +66,34 @@ vec5B.addEventListener('click',()=>{
 
 // FAQS
 
-document.getElementById('pyqVector1').addEventListener('click',()=>{
-    document.querySelector('.faqAns1').classList.toggle('faqAns1');
+document.getElementById('pyqVector1').addEventListener('click', () => {
+    document.querySelector('.faqAns1').classList.toggle('hide-ans');
     document.querySelector('#pyqVector1').classList.toggle('rotate')
 
 })
 
 
-document.getElementById('pyqVector2').addEventListener('click',()=>{
-    document.querySelector('.faqAns2').classList.toggle('faqAns2');
+document.getElementById('pyqVector2').addEventListener('click', () => {
+    document.querySelector('.faqAns2').classList.toggle('hide-ans');
     document.querySelector('#pyqVector2').classList.toggle('rotate')
 })
 
 
 
 
-document.getElementById('pyqVector3').addEventListener('click',()=>{
-    document.querySelector('.faqAns3').classList.toggle('faqAns3');
+document.getElementById('pyqVector3').addEventListener('click', () => {
+    document.querySelector('.faqAns3').classList.toggle('hide-ans');
     document.querySelector('#pyqVector3').classList.toggle('rotate')
 })
 
-document.getElementById('pyqVector4').addEventListener('click',()=>{
-    document.querySelector('.faqAns4').classList.toggle('faqAns4');
+document.getElementById('pyqVector4').addEventListener('click', () => {
+    document.querySelector('.faqAns4').classList.toggle('hide-ans');
     document.querySelector('#pyqVector4').classList.toggle('rotate')
 })
 
 
 //Footer
 
-const year= new Date().getFullYear();
-document.querySelector('.year').textContent=`© ${year} by Foyer`
+const year = new Date().getFullYear();
+document.querySelector('.year').textContent = `© ${year} by Foyer`
+

@@ -26,7 +26,7 @@ body {
 
 .navbar__links li {
     list-style: none;
-    
+
 
 }
 
@@ -35,7 +35,7 @@ body {
     text-decoration: none;
     font-size: 1rem;
     margin: 0 56px;
-    
+
 }
 
 .navbar__brandName img {
@@ -48,12 +48,12 @@ body {
     padding: 7px;
 }
 
-.navbar__home{
+.navbar__home {
     color: #1E2221;
 }
 
-.navbar__demos{
-    
+.navbar__demos {
+
     color: #565959;
 
 }
@@ -81,7 +81,7 @@ body {
 }
 
 
-.property {
+.subtitle {
     font-size: 1.75rem;
     line-height: 2.625 rem;
     color: #565959;
@@ -94,7 +94,7 @@ body {
     padding: 10px 25px;
     margin: 25px 10px;
     cursor: pointer;
-    
+
 }
 
 .cta__install {
@@ -103,8 +103,8 @@ body {
     border: solid #09BC8F;
 }
 
-.cta__install:hover{
-    box-shadow:0 1px 1px lightgrey ;
+.cta__install:hover {
+    box-shadow: 0 1px 1px lightgrey;
 
 }
 
@@ -147,6 +147,12 @@ body {
 
 /* DemoArea */
 
+iframe{
+    height:37.1vw ;
+    width:72vw ;
+    border-radius: 40px;
+}
+
 .demoArea {
     background: #1E2221;
     padding-top: 116px;
@@ -160,10 +166,13 @@ body {
     border-radius: 9px;
     padding: 8px 18px 8px 18px;
     border: none;
-    margin: 97px 38px;
+    margin: 7.5vw 2.9vw;
     cursor: pointer;
     font-size: 28px;
     color: #1E2221;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* SheldonUsage */
@@ -210,17 +219,17 @@ body {
     margin: 4.39vw auto;
     border-radius: 40px;
     position: relative;
-    
+
 }
 
-.sheldonUsage__secondRow div{
-    
-font-size: 3.5vw;
-font-weight: 600;
-line-height: 90px;
-margin-left: 45.08vw;
-color: #fff ;
-position: relative;
+.sheldonUsage__secondRow div {
+
+    font-size: 3.5vw;
+    font-weight: 600;
+    line-height: 90px;
+    margin-left: 45.08vw;
+    color: #fff;
+    position: relative;
 
 
 }
@@ -256,8 +265,30 @@ position: relative;
     position: relative;
 }
 
-.usage-plus{
-    position: absolute ;
+.sheldonUsage__fifthRow {
+    display: flex;
+    justify-content: center;
+}
+
+.sheldonUsage__fifthRowA {
+    height: 42.9vw;
+    width: 42.9vw;
+    background: #1E2221;
+    border-radius: 40px;
+    margin-right: 3.82vw;
+    position: relative;
+}
+
+.sheldonUsage__fifthRowB {
+    height: 42.9vw;
+    width: 42.9vw;
+    background: #09BC8F;
+    border-radius: 40px;
+    position: relative;
+}
+
+.usage-plus {
+    position: absolute;
     bottom: 35px;
     right: 35px;
 }
@@ -265,8 +296,8 @@ position: relative;
 
 
 
-.hide-usage{
-    display:none
+.hide-usage {
+    display: none
 }
 
 /* .show-usage{
@@ -291,7 +322,7 @@ position: relative;
 .users__review {
     display: flex;
     justify-content: center;
-    background-image:url('./images/gradient-background.svg');
+    background-image: url('./images/gradient-background.svg');
 
 }
 
@@ -361,7 +392,7 @@ position: relative;
     margin-top: 3.58vw;
 }
 
-.faq__subTitle {
+.faq__subtitle {
     font-size: 2vw;
     color: #09BC8F;
     font-style: italic;
@@ -384,29 +415,31 @@ position: relative;
     justify-content: space-between;
     align-items: center;
     margin: 1vw auto;
-    font-size: 1.5rem;
+    font-size: 2vw;
+}
+
+
+.hide-ans {
+    display: none;
 }
 
 .faqAns1,
 .faqAns2,
 .faqAns3,
 .faqAns4 {
-    display: none;
-}
-
-.faq-ans {
     color: #1E2221;
     margin-right: 5vw;
+    font-size: 2vw;
 }
 
-hr{
+hr {
     border: #09BC8F solid 0.5px;
 }
 
 .rotate {
     transform: rotate(45deg);
     transition: 200ms ease-in-out;
-    
+
 }
 
 
@@ -425,16 +458,29 @@ hr{
 }
 
 
-@media screen and (max-width:480px) {
+
+@media  (max-width:480px) {
+
+    iframe{
+        width:236px;
+        height: 115px;
+    }
     .title {
         font-family: Poppins;
         font-size: 30px;
         font-weight: 800;
         line-height: 45px;
-        letter-spacing: 0em;
-        text-align: center;
         margin: initial 50px;
     }
 
+    .navbar__home, .navbar__demos{
+        display: none;
+    }
+
+    .demoArea__btn3{
+        display: none;
+    }
+
+    
 
 }

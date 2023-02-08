@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
         <!-- Header -->
         <div class='heading'>
             <div class='title'>AI Assistant that Saves 20% of your Time on the Internet</div>
-            <div class='property'>Sheldon can write your blogs, social media posts, emails, code snipets, Excel formulas
+            <div class='subtitle'>Sheldon can write your blogs, social media posts, emails, code snipets, Excel formulas
                 in under 5 seconds</div>
             <div class='cta'>
                 <a href="#"><button class='cta__install'>Install Sheldon - It's free!</button></a>
@@ -65,14 +65,14 @@
 
         <!-- DemoArea         -->
         <div class='demoArea'>
-            <iframe width="725" height="476" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            <iframe  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
             <div>Lorem ipsum dolor sit amet consectetur. Fermentum rhoncus mi ut nunc.</div>
-            <button>Add to :<img src="./vectors/chrome.svg" ></button>
+            <button>Add to :<img src="./vectors/chrome.svg"></button>
             <button>Add to :<img src="./vectors/firefox.svg"></button>
-            <button>Click ⌘ + U</button>
+            <button class="demoArea__btn3">Click ⌘ + U</button>
         </div>
 
         <!-- SheldonUsage -->
@@ -80,8 +80,8 @@
             <div class='sheldonUsage__heading'>What can SHELDON do?</div>
             <div class='sheldonUsage__firstRow'>
                 <div class='knowledgeBox'>
-                    <div  class="before-click-vec1 ">1</div>
-                    <div class="after-click-vec1 hide-usage">2</div>
+                    <div class="before-click-vec1 "></div>
+                    <div class="after-click-vec1 hide-usage"></div>
                     <img class="usage-plus vec1" src="./vectors/usage-plus.svg">
                 </div>
                 <img class='sheldonUsageImage' src='./images/sheldonUsage.svg' />
@@ -109,14 +109,14 @@
                 <img class="usage-plus vec4" src="./vectors/usage-plus.svg">
             </div>
             <!-- fifth row same as third row. just copied divs  -->
-            <div class='sheldonUsage__thirdRow'>
-                <div class='sheldonUsage__thirdRowA' style="background-color: #09BC8F;">
-                    <div class="before-click-vec-5A "></div>
+            <div class='sheldonUsage__fifthRow'>
+                <div class='sheldonUsage__fifthRowA' style="background-color: #09BC8F;">
+                    <div class="before-click-vec5A "></div>
                     <div class="after-click-vec5A hide-usage"></div>
                     <img class="usage-plus vec5A" src="./vectors/usage-plus.svg">
                 </div>
-                <div class='sheldonUsage__thirdRowB'>
-                    <div class="before-click-vec-5B "></div>
+                <div class='sheldonUsage__fifthRowB'>
+                    <div class="before-click-vec5B "></div>
                     <div class="after-click-vec5B hide-usage"></div>
                     <img class="usage-plus vec5B" src="./vectors/usage-plus.svg">
                 </div>
@@ -152,41 +152,41 @@
         <!-- FAQs -->
         <div class="faq">
             <div class="faq__title"><b>FAQs</b></div>
-            <div class="faq__subTitle">Frequently asked questions</div>
+            <div class="faq__subtitle">Frequently asked questions</div>
             <div class="faq__body">
                 <hr>
                 <div class="faq__body1">
                     <div>Do you upgrade/modify the extension?</div>
-                    <img id="pyqVector1" src="./vectors/faqs-plus.svg" onclick="faqAns1()" />
+                    <img id="pyqVector1" src="./vectors/faqs-plus.svg" />
 
                 </div>
-                <div class="faqAns1 faq-ans">Yes, we do! In fact, at this very moment, we’re working on features that
+                <div class="faqAns1 hide-ans  ">Yes, we do! In fact, at this very moment, we’re working on features that
                     are probably going to be added. We have a goal of making Sheldon the best ChatGPT extension out
                     there, and we take this mission very seriously.
                 </div>
                 <hr>
                 <div class="faq__body2">
                     <div>Can I suggest additional features to be added to the extension?</div>
-                    <img id="pyqVector2" src="./vectors/faqs-plus.svg" onclick="faqAns2()" />
+                    <img id="pyqVector2" src="./vectors/faqs-plus.svg" />
                 </div>
-                <div class="faqAns2 faq-ans">We’d love that! Please feel free to reach out to pratyush@foyer.work with
+                <div class="faqAns2 hide-ans ">We’d love that! Please feel free to reach out to pratyush@foyer.work with
                     the subject line “Chrome extension”. We listen to our users attentively to make sure we’re adding
                     features that will truly impact your workflow by saving you hours of work and giving you the data
                     you need.</div>
                 <hr>
                 <div class="faq__body3">
                     <div>What browsers is the extension available on?</div>
-                    <img id="pyqVector3" src="./vectors/faqs-plus.svg" onclick="faqAns3()" />
+                    <img id="pyqVector3" src="./vectors/faqs-plus.svg" />
                 </div>
-                <div class="faqAns3 faq-ans">At the moment, our extension is only available for Google Chrome and Edge
+                <div class="faqAns3 hide-ans">At the moment, our extension is only available for Google Chrome and Edge
                     (any chromium based browsers) and Firefox. But we do have plans to incorporate other browsers too.
                 </div>
                 <hr>
                 <div class="faq__body4">
                     <div>Are all of the features totally free to use?</div>
-                    <img id="pyqVector4" src="./vectors/faqs-plus.svg" onclick="faqAns4()" />
+                    <img id="pyqVector4" src="./vectors/faqs-plus.svg" />
                 </div>
-                <div class="faqAns4 faq-ans">In our Chrome extension, you will get access to all of the features for
+                <div class="faqAns4 hide-ans">In our Chrome extension, you will get access to all of the features for
                     free with no daily data limits. You can upgrade to access even more data if you so desire.
                 </div>
                 <hr>
@@ -196,7 +196,7 @@
         <!-- Footer -->
         <div class="footer">
             <div>Report an issue</div>
-            <div class="year"></div>
+            <div class="year">© by Foyer</div>
             <div>Request a feature</div>
         </div>
 
