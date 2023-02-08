@@ -1,0 +1,440 @@
+/* Navbar */
+
+body {
+    font-family: poppins;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    align-items: center
+}
+
+.navbar__brandName {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 127px;
+    display: flex;
+    align-items: center
+}
+
+.navbar__links ul {
+    display: flex;
+}
+
+.navbar__links li {
+    list-style: none;
+    
+
+}
+
+.navbar__links li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 56px;
+    
+}
+
+.navbar__brandName img {
+    height: 40px;
+    width: 40px;
+    border-radius: 800px;
+}
+
+.brandName__name {
+    padding: 7px;
+}
+
+.navbar__home{
+    color: #1E2221;
+}
+
+.navbar__demos{
+    
+    color: #565959;
+
+}
+
+.navbar__install {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    color: #09BC8F;
+}
+
+/* Heading */
+
+.heading {
+    text-align: center;
+    margin: 0 8.9vw;
+}
+
+.title {
+    font-size: 4vw;
+    margin: 7.9vw 8.9vw 0;
+    font-weight: 800;
+    line-height: 6vw;
+    color: #1E2221;
+}
+
+
+.property {
+    font-size: 1.75rem;
+    line-height: 2.625 rem;
+    color: #565959;
+    margin: 1.9vw 9vw;
+}
+
+.cta button {
+    border-radius: 111.6px;
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    margin: 25px 10px;
+    cursor: pointer;
+    
+}
+
+.cta__install {
+    background-color: #09BC8F;
+    color: #ffffff;
+    border: solid #09BC8F;
+}
+
+.cta__install:hover{
+    box-shadow:0 1px 1px lightgrey ;
+
+}
+
+.cta__demos {
+    background-color: #ffffff;
+    border: solid #09BC8F;
+    color: #1E2221;
+}
+
+
+
+.userImage {
+    display: flex;
+    justify-content: center;
+}
+
+.headingImage {
+
+    height: 40px;
+    width: 40px;
+    border: solid 4.5px #63A0E8A6;
+    border-radius: 100%;
+
+}
+
+.headingImageDiv {
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    margin-bottom: 9px;
+}
+
+.text__professionals {
+    color: #565959;
+    font-size: 1.25rem;
+    margin-top: 9px;
+    margin-bottom: 116px;
+
+}
+
+/* DemoArea */
+
+.demoArea {
+    background: #1E2221;
+    padding-top: 116px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.demoArea button {
+    height: 58px;
+    width: 229px;
+    border-radius: 9px;
+    padding: 8px 18px 8px 18px;
+    border: none;
+    margin: 97px 38px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #1E2221;
+}
+
+/* SheldonUsage */
+
+.sheldonUsage {
+    margin-bottom: 9.82vw;
+}
+
+.sheldonUsage__heading {
+    font-size: 3.5vw;
+    font-weight: 600;
+    text-align: center;
+    margin: 7.17vw auto;
+    color: #1E2221;
+}
+
+.sheldonUsage__firstRow {
+    display: flex;
+    margin-top: 81px 5vw;
+    justify-content: center;
+}
+
+.knowledgeBox {
+    height: 30.9vw;
+    width: 30.9vw;
+    border-radius: 40px;
+    background-color: #1E2221;
+    margin-right: 4vw;
+    position: relative;
+
+}
+
+.sheldonUsageImage {
+    width: 54.9vw;
+    height: 30.9vw;
+    border-radius: 40px;
+
+}
+
+.sheldonUsage__secondRow {
+    background: #09BC8F;
+    height: 30.9vw;
+    width: 89.8vw;
+    margin: 4.39vw auto;
+    border-radius: 40px;
+    position: relative;
+    
+}
+
+.sheldonUsage__secondRow div{
+    
+font-size: 3.5vw;
+font-weight: 600;
+line-height: 90px;
+margin-left: 45.08vw;
+color: #fff ;
+position: relative;
+
+
+}
+
+.sheldonUsage__thirdRow {
+    display: flex;
+    justify-content: center;
+}
+
+.sheldonUsage__thirdRowA {
+    height: 42.9vw;
+    width: 42.9vw;
+    background: #1E2221;
+    border-radius: 40px;
+    margin-right: 3.82vw;
+    position: relative;
+}
+
+.sheldonUsage__thirdRowB {
+    height: 42.9vw;
+    width: 42.9vw;
+    background: #09BC8F;
+    border-radius: 40px;
+    position: relative;
+}
+
+.sheldonUsage__forthRow {
+    height: 40.4vw;
+    width: 89.78vw;
+    border-radius: 40px;
+    margin: 4.19vw auto;
+    background: #1E2221;
+    position: relative;
+}
+
+.usage-plus{
+    position: absolute ;
+    bottom: 35px;
+    right: 35px;
+}
+
+
+
+
+.hide-usage{
+    display:none
+}
+
+/* .show-usage{
+    
+} */
+
+
+
+/* UsersSay */
+.users {
+    margin-bottom: 11.15vw;
+}
+
+.users__title {
+    font-size: 3.5vw;
+    color: #1E2221;
+    text-align: center;
+    margin-bottom: 7.8vw;
+    font-weight: 600;
+}
+
+.users__review {
+    display: flex;
+    justify-content: center;
+    background-image:url('./images/gradient-background.svg');
+
+}
+
+.users__review div {
+    height: 27.31vw;
+    width: 27.31vw;
+    border: solid #8a8c8c;
+
+}
+
+.users__review1,
+.users__review3 {
+    border-radius: 40px;
+}
+
+.users__review2 {
+    border-radius: 100%;
+    margin: 0 4.05vw;
+}
+
+
+/* Favourite Websites */
+
+.favWebsites__title {
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: 600;
+    color: #1E2221;
+}
+
+.favwebsites__img {
+    text-align: center;
+}
+
+.favwebsites__img img {
+
+    width: 33.33vw;
+
+
+}
+
+
+/* TroubleShooting */
+
+.troubleshooting {
+    height: 9.74vw;
+    background-color: #1E2221;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5vw;
+
+}
+
+
+/* FAQs */
+
+.faq {
+    margin: 0 7.8vw 2.49vw;
+}
+
+.faq__title {
+    font-size: 4vw;
+    font-weight: 600;
+    color: #09BC8F;
+    margin-top: 3.58vw;
+}
+
+.faq__subTitle {
+    font-size: 2vw;
+    color: #09BC8F;
+    font-style: italic;
+    position: relative;
+    bottom: 2vw;
+    margin-bottom: 2vw;
+
+}
+
+
+.faq__body div img {
+    width: 2.6vw;
+}
+
+.faq__body1,
+.faq__body2,
+.faq__body3,
+.faq__body4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vw auto;
+    font-size: 1.5rem;
+}
+
+.faqAns1,
+.faqAns2,
+.faqAns3,
+.faqAns4 {
+    display: none;
+}
+
+.faq-ans {
+    color: #1E2221;
+    margin-right: 5vw;
+}
+
+hr{
+    border: #09BC8F solid 0.5px;
+}
+
+.rotate {
+    transform: rotate(45deg);
+    transition: 200ms ease-in-out;
+    
+}
+
+
+
+/* Footer */
+
+.footer {
+    margin-top: 7vw;
+    background-color: #1E2221;
+    height: 9.36vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+
+@media screen and (max-width:480px) {
+    .title {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: initial 50px;
+    }
+
+
+}
