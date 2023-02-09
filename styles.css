@@ -152,6 +152,21 @@ body {
 
 }
 
+.blob1{
+    position: absolute;
+    top:15vw;
+    left: 0;
+    z-index: -1;
+}
+
+.blob2{
+    position: absolute;
+    right: 0;
+    top:425px;
+    z-index: -1;
+}
+
+
 /* DemoArea */
 
 iframe{
