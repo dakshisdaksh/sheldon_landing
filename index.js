@@ -91,9 +91,3 @@ document.getElementById('pyqVector4').addEventListener('click', () => {
     document.querySelector('#pyqVector4').classList.toggle('rotate')
 })
 
-
-//Footer
-
-const year = new Date().getFullYear();
-document.querySelector('.year').textContent = `© ${year} by Foyer`
-
