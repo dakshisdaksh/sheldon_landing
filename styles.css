@@ -26,15 +26,13 @@ body {
 
 .navbar__links li {
     list-style: none;
-
-
 }
 
 .navbar__links li a {
     color: inherit;
     text-decoration: none;
     font-size: 1rem;
-    margin: 0 56px;
+    margin: 0 4.3vw;
 
 }
 
@@ -82,7 +80,7 @@ body {
 
 
 .subtitle {
-    font-size: 1.75rem;
+    font-size: 2vw;
     line-height: 2.625 rem;
     color: #565959;
     margin: 1.9vw 9vw;
@@ -192,7 +190,7 @@ iframe{
     border: none;
     margin: 7.5vw 2.9vw;
     cursor: pointer;
-    font-size: 28px;
+    font-size: 1.5rem;
     color: #1E2221;
     display: inline-flex;
     align-items: center;
@@ -204,6 +202,8 @@ iframe{
 .demoArea button:active{
     transform: scale(0.95);
 }
+
+
 
 /* SheldonUsage */
 
@@ -554,6 +554,9 @@ hr {
     .demoArea__btn3{
         display: none;
     }
+
+    
+    
 
 }
 
