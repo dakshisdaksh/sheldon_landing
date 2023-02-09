@@ -484,3 +484,8 @@ hr {
     
 
 }
+
+.nolink {
+    color: #ffffff;
+    text-decoration: none;
+}
