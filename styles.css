@@ -467,6 +467,10 @@ hr {
     font-size: 1vw;
 }
 
+.nolink{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 @media  (max-width:480px) {
