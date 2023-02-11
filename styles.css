@@ -177,7 +177,7 @@ iframe{
 
 .demoArea {
     background: #1E2221;
-    padding-top: 116px;
+    padding-top: 9vw;
     color: #ffffff;
     text-align: center;
 }
@@ -195,8 +195,7 @@ iframe{
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
-    transition: all 0.3s ease-in-out;
-    
+    transition: all 0.3s ease-in-out;  
 }
 
 .demoArea button:active{
@@ -212,7 +211,7 @@ iframe{
 }
 
 .sheldonUsage__heading {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     font-weight: 600;
     text-align: center;
     margin: 7.17vw auto;
@@ -244,7 +243,7 @@ iframe{
 
 .sheldonUsage__secondRow {
     background: #09BC8F;
-    height: 30.9vw;
+    height: 40.4vw;
     width: 89.8vw;
     margin: 4.39vw auto;
     border-radius: 3.14vw;
@@ -355,7 +354,6 @@ iframe{
 .users__review {
     display: flex;
     justify-content: center;
-    background-image: url('./images/gradient-background.svg');
 
 }
 
@@ -380,7 +378,7 @@ iframe{
 /* Favourite Websites */
 
 .favWebsites__title {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     text-align: center;
     font-weight: 600;
     color: #1E2221;
@@ -391,10 +389,7 @@ iframe{
 }
 
 .favwebsites__img img {
-
     width: 33.33vw;
-
-
 }
 
 
@@ -513,11 +508,45 @@ hr {
     .subtitle{
         font-size: 1rem;
     }
+
+    .title {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 45px;
+        margin: 0;
+    }
+
+    .navbar__home, .navbar__demos{
+        display: none;
+    }
+
+    .navbar__links li a{
+        margin:8vw
+    }
+
+    .demoArea__btn3{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+        top:-100px;
+        left:0
+    }
+
+    .demoArea button{
+        width:35vw;
+        height: 10vw;
+        font-size: 4vw;
+    }
+
+    .chrome-img, .firefox-img{
+        width: 7vw;
+        height: 7vw;
+    }
+
    .cta button{
     font-size: 1rem;
-    margin: 10px;
-    
-   
+    margin: 10px; 
    }
 
    .headingImageDiv{
@@ -531,6 +560,36 @@ hr {
     width:20px
    }
 
+   .sheldonUsage__heading{
+    font-size: 6vw;
+   }
+
+   .users__title{
+    font-size: 6svw;
+   }
+
+   .users__review div{
+    width: 70vw;
+    height: 70vw;
+    border-radius: 40px;
+   }
+
+   .users__review2 , .users__review3{
+    display: none;
+   }
+
+
+
+
+
+   .favWebsites__title {
+    font-size: 4.7vw;
+   }
+
+   .favwebsites__img img{
+    width:100%
+   }
+
    .text__professionals{
     font-size: 0.75rem;
    }
@@ -539,21 +598,34 @@ hr {
         width: 90vw;
     height: 50vw;
     }
-    .title {
-        font-family: Poppins;
-        font-size: 30px;
-        font-weight: 800;
-        line-height: 45px;
-        margin: 0;
+    
+
+    .troubleshooting{
+        font-size: 1.8vw;
     }
 
-    .navbar__home, .navbar__demos{
-        display: none;
+    .faq__title{
+        font-size: 7vw;
     }
 
-    .demoArea__btn3{
-        display: none;
-    }
+
+    .faq__body1,
+.faq__body2,
+.faq__body3,
+.faq__body4{
+    font-size: 2.5vw;
+}
+
+.faqAns1,
+.faqAns2,
+.faqAns3,
+.faqAns4{
+    font-size: 2vw;
+}
+
+.footer{
+    font-size: 1.2vw;
+}
 
     
     
