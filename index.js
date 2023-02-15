@@ -7,11 +7,10 @@ navbarDemos.addEventListener('click', () => demoArea.scrollIntoView({ behavior: 
 
 const vec1 = document.querySelector('.vec1')
 const vec2 = document.querySelector('.vec2')
-const vec3A = document.querySelector('.vec3A')
-const vec3B = document.querySelector('.vec3B')
+const vec3 = document.querySelector('.vec3')
 const vec4 = document.querySelector('.vec4')
-const vec5A = document.querySelector('.vec5A')
-const vec5B = document.querySelector('.vec5B')
+const vec5 = document.querySelector('.vec5')
+
 
 
 
@@ -27,16 +26,10 @@ vec2.addEventListener('click', () => {
     vec2.classList.toggle('rotate');
 })
 
-vec3A.addEventListener('click', () => {
-    document.querySelector('.before-click-vec3A').classList.toggle('hide-usage');
-    document.querySelector('.after-click-vec3A').classList.toggle('hide-usage');
-    vec3A.classList.toggle('rotate');
-})
-
-vec3B.addEventListener('click', () => {
-    document.querySelector('.before-click-vec3B').classList.toggle('hide-usage');
-    document.querySelector('.after-click-vec3B').classList.toggle('hide-usage');
-    vec3B.classList.toggle('rotate');
+vec3.addEventListener('click', () => {
+    document.querySelector('.before-click-vec3').classList.toggle('hide-usage');
+    document.querySelector('.after-click-vec3').classList.toggle('hide-usage');
+    vec3.classList.toggle('rotate');
 })
 
 vec4.addEventListener('click', () => {
@@ -46,21 +39,12 @@ vec4.addEventListener('click', () => {
     console.log("yes4")
 })
 
-vec5A.addEventListener('click', () => {
-    document.querySelector('.before-click-vec5A').classList.toggle('hide-usage');
-    document.querySelector('.after-click-vec5A').classList.toggle('hide-usage');
-    vec5A.classList.toggle('rotate');
+vec5.addEventListener('click', () => {
+    document.querySelector('.before-click-vec5').classList.toggle('hide-usage');
+    document.querySelector('.after-click-vec5').classList.toggle('hide-usage');
+    vec5.classList.toggle('rotate');
     console.log('yes')
 })
-
-
-
-vec5B.addEventListener('click', () => {
-    document.querySelector('.before-click-vec5B').classList.toggle('hide-usage');
-    document.querySelector('.after-click-vec5B').classList.toggle('hide-usage');
-    vec5B.classList.toggle('rotate');
-})
-
 
 
 
