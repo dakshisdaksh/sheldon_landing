@@ -442,6 +442,7 @@ iframe {
 .user-img {
     border-radius: 100%;
     height: 6vw;
+    width:6vw ;
 }
 
 .user-profile {
@@ -652,10 +653,15 @@ hr {
         display: none;
     }
 
+    .sheldonUsage__fifthRow{
+        width: 89.8vw;
+    }
+
     .knowledgeBox{
         height: 40vw;
-        width: 89.8vw;
-        margin:auto;
+        width:89.8vw;
+        margin: auto;
+        padding: 10px   ;
     }
 
     
@@ -759,7 +765,6 @@ hr {
         width: 80vw;
         height: 70vw;
         border-radius: 30px;
-
     }
 
     .rating{
